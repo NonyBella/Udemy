@@ -23,7 +23,7 @@ li {
     border-radius: 20px;
 }
 
-.signup {
+.signup, .button{
     height: 50px;
     width: 70px;
     background-color: black;
@@ -70,7 +70,7 @@ li {
 .third-section-career h4{
     font-size: 25px;
 }
-.third-section-career button{
+.third-section-career button, .btn{
     background-color: transparent;
     border: 1px solid black;
     height: 50px;
@@ -102,7 +102,90 @@ li {
 .fourth-section {
 border: none;
 }
-#students{
-    margin-top: 5%;
+.students,h1,h2{
+    margin-top: 7%;
     margin-left: 4%;
+    font-size: 30px;
+}
+.sixth{
+    background-color: rgb(245, 247, 249);
+    
+}
+.sixth-section{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-left: 3%;
+}
+.subsection{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+.subsection li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3%;
+    gap: 5px;
+    font-size: 18px;
+    align-items: center;
+}
+.subsection a{
+    text-decoration: underline;
+    color: blue;
+}
+.subsection span{
+    color: grey;
+}
+.btn{
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.seventh-section h1,h5{
+    text-align: center;
+}
+.seventh-section img{
+    margin: 5%;
+}
+.eighth{
+    display: flex;
+    gap: 50px;
+}
+.eighth-section{
+    width: 500px;
+    margin-left: 5%;
+    padding: 30px;
+}
+.eighth-section img{
+    width: 200px;
+    margin-left: 15px;
+}
+.eighth-section h1{
+    margin-top: 0;
+}
+.eighth-section li{
+    list-style-type: inherit;
+    padding: 10px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+}
+.ninth{
+    display: flex;
+    gap: 50px;
+}
+.ninth-subsection{
+    width: 400px;
+    justify-content: center;
+    margin-top: 7%;
+}
+.tenth-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.tenth-section a{
+    color: white;
 }
