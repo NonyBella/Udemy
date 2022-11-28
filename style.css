@@ -1,0 +1,108 @@
+body {
+    font-size: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    width: 700px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.signup {
+    height: 50px;
+    width: 70px;
+    background-color: black;
+    color: white;
+}
+
+
+.first-section {
+    background-image: url(./images/background\ \(2\).jpg);
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.first-section div {
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    padding: 20px;
+}
+.second-section{
+    margin-left: 5%;
+}
+.second-section ul {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.third-section,.fourth-section{
+    border: 1px solid rgb(213, 207, 207);
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+.third-section-career{
+    font-size: 16px;
+    width: 850px;
+    margin-left: 2%;
+    padding: 20px;
+}
+.third-section-career h4{
+    font-size: 25px;
+}
+.third-section-career button{
+    background-color: transparent;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.third-section-photos,.fourth-section,.fifth-section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    gap: 10px;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; 
+    width: 250px;
+    
+}
+.photos button{
+    height: 20px;
+    width: 80px;
+    background-color:rgb(221, 221, 73);
+    border: 1px solid white;
+    margin-left: 30%
+}
+.fourth-section {
+border: none;
+}
+#students{
+    margin-top: 5%;
+    margin-left: 4%;
+}
